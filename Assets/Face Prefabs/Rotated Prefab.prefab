@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1239421688935698731}
   - component: {fileID: 3300939642444212707}
   m_Layer: 0
-  m_Name: DanuPrefab
+  m_Name: Rotated Prefab
   m_TagString: FacePrefab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CoefficientScale: 100
-  m_SkinnedMeshRenderer: {fileID: 665047329826169704}
+  m_SkinnedMeshRenderer: {fileID: 227820932454338163}
 --- !u!1001 &3058915044249679372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -123,7 +123,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c71f0630e898a40e8b2a262b5e49cdcd,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c71f0630e898a40e8b2a262b5e49cdcd,
         type: 3}
@@ -133,7 +133,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c71f0630e898a40e8b2a262b5e49cdcd,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c71f0630e898a40e8b2a262b5e49cdcd,
         type: 3}
@@ -148,7 +148,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c71f0630e898a40e8b2a262b5e49cdcd,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c71f0630e898a40e8b2a262b5e49cdcd,
         type: 3}
@@ -209,7 +209,13 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3058915044249679372}
   m_PrefabAsset: {fileID: 0}
---- !u!137 &665047329826169704
+--- !u!4 &5274326553666866397 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7152102175334791889, guid: c71f0630e898a40e8b2a262b5e49cdcd,
+    type: 3}
+  m_PrefabInstance: {fileID: 3058915044249679372}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &227820932454338163
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -233,8 +239,7 @@ SkinnedMeshRenderer:
     firstSubMesh: 0
     subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 7152102175334791889, guid: c71f0630e898a40e8b2a262b5e49cdcd,
-    type: 3}
+  m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_ReceiveGI: 1
@@ -308,8 +313,7 @@ SkinnedMeshRenderer:
   - 0
   - 0
   - 0
-  m_RootBone: {fileID: 7152102175334791889, guid: c71f0630e898a40e8b2a262b5e49cdcd,
-    type: 3}
+  m_RootBone: {fileID: 5274326553666866397}
   m_AABB:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}

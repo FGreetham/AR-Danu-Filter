@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Danu Face Filter.unity
-    guid: c9bba4558063f44f18a3c0090ecb530d
+    path: Assets/Face.unity
+    guid: e3b7a9e6eb00d4df2ade7164d50eb210
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
