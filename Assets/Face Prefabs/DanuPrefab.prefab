@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -2892792163947351898}
   - component: {fileID: 1239421688935698731}
   - component: {fileID: 3300939642444212707}
+  - component: {fileID: 7715338686965960601}
   m_Layer: 0
   m_Name: DanuPrefab
   m_TagString: FacePrefab
@@ -86,13 +87,27 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2324119935808647627}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0720748db4e9c4beb860db6a605ed04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_CoefficientScale: 100
-  m_SkinnedMeshRenderer: {fileID: 665047329826169704}
+  m_SkinnedMeshRenderer: {fileID: 166754800488284505}
+--- !u!114 &7715338686965960601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2324119935808647627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364319314506847e5985a5502f97f89d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blendShapeMappings: {fileID: 11400000, guid: 3b691543c278540fb9eecc74a52e6325, type: 2}
+  skinnedMeshRenderer: {fileID: 665047329826169704}
 --- !u!1001 &3058915044249679372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -157,6 +172,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6331184090382092459, guid: c71f0630e898a40e8b2a262b5e49cdcd,
         type: 3}
+      propertyPath: m_Quality
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6331184090382092459, guid: c71f0630e898a40e8b2a262b5e49cdcd,
+        type: 3}
       propertyPath: m_DirtyAABB
       value: 0
       objectReference: {fileID: 0}
@@ -190,6 +210,21 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.0014119681
       objectReference: {fileID: 0}
+    - target: {fileID: -6331184090382092459, guid: c71f0630e898a40e8b2a262b5e49cdcd,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: -6331184090382092459, guid: c71f0630e898a40e8b2a262b5e49cdcd,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6331184090382092459, guid: c71f0630e898a40e8b2a262b5e49cdcd,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c71f0630e898a40e8b2a262b5e49cdcd,
         type: 3}
       propertyPath: m_Name
@@ -206,6 +241,12 @@ GameObject:
 --- !u!4 &3312901634230899175 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c71f0630e898a40e8b2a262b5e49cdcd,
+    type: 3}
+  m_PrefabInstance: {fileID: 3058915044249679372}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &166754800488284505 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -6331184090382092459, guid: c71f0630e898a40e8b2a262b5e49cdcd,
     type: 3}
   m_PrefabInstance: {fileID: 3058915044249679372}
   m_PrefabAsset: {fileID: 0}
