@@ -19,7 +19,7 @@ MonoBehaviour:
   - location: 1
     name: browDownRight
   - location: 2
-    name: browInnerUP
+    name: browInnerUp
   - location: 3
     name: blendShape2.browsU_L
   - location: 4

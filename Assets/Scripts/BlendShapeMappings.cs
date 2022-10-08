@@ -14,7 +14,7 @@ public class Mapping
 
 public class BlendShapeMappings : ScriptableObject
 {
-    public const string BLENDSHAPE_EXPRESSION = "blendShape2.";
+   public const string BLENDSHAPE_EXPRESSION = "";
 
     public float CoefficientScale = 100.0f;
 
@@ -22,9 +22,9 @@ public class BlendShapeMappings : ScriptableObject
     public List<Mapping> Mappings = new List<Mapping>
     {
 
-        new Mapping { location = ARKitBlendShapeLocation.BrowDownLeft, name = $"{BLENDSHAPE_EXPRESSION}BrowDownLeft" },
-        new Mapping { location = ARKitBlendShapeLocation.BrowDownRight , name = $"{BLENDSHAPE_EXPRESSION}browsD_R" },
-        new Mapping { location = ARKitBlendShapeLocation.BrowInnerUp , name = $"{BLENDSHAPE_EXPRESSION}browsU_C" },
+        new Mapping { location = ARKitBlendShapeLocation.BrowDownLeft, name = $"browDownLeft" },
+        new Mapping { location = ARKitBlendShapeLocation.BrowDownRight , name = $"{BLENDSHAPE_EXPRESSION}browDownRight" },
+        new Mapping { location = ARKitBlendShapeLocation.BrowInnerUp , name = $"{BLENDSHAPE_EXPRESSION}browInnerUp" },
         new Mapping { location = ARKitBlendShapeLocation.BrowOuterUpLeft , name = $"{BLENDSHAPE_EXPRESSION}browsU_L" },
         new Mapping { location = ARKitBlendShapeLocation.BrowOuterUpRight , name = $"{BLENDSHAPE_EXPRESSION}browsU_R" },
         new Mapping { location = ARKitBlendShapeLocation.CheekPuff , name = $"{BLENDSHAPE_EXPRESSION}cheekPuff" },
@@ -51,7 +51,7 @@ public class BlendShapeMappings : ScriptableObject
         new Mapping { location = ARKitBlendShapeLocation.MouthClose , name = $"{BLENDSHAPE_EXPRESSION}mouthClose" },
         new Mapping { location = ARKitBlendShapeLocation.MouthDimpleLeft , name = $"{BLENDSHAPE_EXPRESSION}mouthDimple_L" },
         new Mapping { location = ARKitBlendShapeLocation.MouthDimpleRight , name = $"{BLENDSHAPE_EXPRESSION}mouthDimple_R" },
-        new Mapping { location = ARKitBlendShapeLocation.MouthFrownLeft , name = $"{BLENDSHAPE_EXPRESSION}mouthFrown_L" },
+        new Mapping { location = ARKitBlendShapeLocation.MouthFrownLeft , name = $"{BLENDSHAPE_EXPRESSION}mouthFrownLeft" },
         new Mapping { location = ARKitBlendShapeLocation.MouthFrownRight , name = $"{BLENDSHAPE_EXPRESSION}mouthFrown_R" },
         new Mapping { location = ARKitBlendShapeLocation.MouthFunnel , name = $"{BLENDSHAPE_EXPRESSION}mouthFunnel" },
         new Mapping { location = ARKitBlendShapeLocation.MouthLeft , name = $"{BLENDSHAPE_EXPRESSION}mouthLeft" },

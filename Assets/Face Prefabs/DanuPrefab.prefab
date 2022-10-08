@@ -106,8 +106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 364319314506847e5985a5502f97f89d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blendShapeMappings: {fileID: 11400000, guid: 3b691543c278540fb9eecc74a52e6325, type: 2}
-  skinnedMeshRenderer: {fileID: 665047329826169704}
+  blendShapeMappings: {fileID: 11400000, guid: ebc335ec8d69c4bc88ff049b80b9c3d7, type: 2}
+  skinnedMeshRenderer: {fileID: 166754800488284505}
 --- !u!1001 &3058915044249679372
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -20,6 +20,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
     [RequireComponent(typeof(ARFace))]
     public class ARKitBlendShapeVisualizer : MonoBehaviour
     {
+        
+
         [SerializeField]
         float m_CoefficientScale = 100.0f;
 
